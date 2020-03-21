@@ -22,7 +22,8 @@ export default {
         msg:"Add Item",
         item:{
           name:'',
-          category:''
+          category:'',
+          addedBy:'Thangamani'
         },
         
         

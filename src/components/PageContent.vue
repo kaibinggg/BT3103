@@ -30,7 +30,7 @@ export default {
       database.collection('items').get().then((querySnapShot)=>{
         //Loop through each item
         querySnapShot.forEach(doc=>{
-            //console.log(doc.id+"==>"+doc.data())
+            console.log(doc.id+"==>"+doc.data())
             item=doc.data()
             item.show=false
             item.id=doc.id
